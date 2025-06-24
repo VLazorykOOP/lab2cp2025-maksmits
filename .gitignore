@@ -1,1 +1,71 @@
-#  add file's  ignore pull - push 
+# Системні файли Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Файли Visual Studio
+.vs/
+.vscode/
+*.code-workspace
+
+# Build results
+[Bb]in/
+[Oo]bj/
+Build/
+x64/
+x86/
+Debug*/
+Release*/
+
+# Файли проектів Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Кеші та тимчасові файли
+*.ncb
+*.sdf
+*.opensdf
+*.cache
+*.dbmdl
+*.VC.db
+*.VC.opendb
+*.tlog
+*.log
+
+# Файли CMake, якщо використовуються
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Інші середовища
+*.DS_Store
+.idea/
+*.iml
+
+# Файли систем контролю версій
+*.orig
+
+# Конфігураційні/локальні налаштування
+*.local
+*.environment
+*.launch
+
+# Універсальні IDE файли
+*.swp
+*.bak
+*.tmp
+*.sublime-workspace
+*.sublime-project
+
+# Додаткове
+*.ipch
+*.iobj
+*.ipdb
+
+# Звіти та лог-файли
+*.log
+*.trace
+*.dmp
